@@ -1,0 +1,41 @@
+/*! Custom styles go here */
+/*.container{
+  padding: 2em;
+}
+
+.nav-pills{
+  background: #f2f2f2;
+  margin-bottom: 2em;
+}
+
+.nav-pills>li{
+  border-bottom: 1px solid #bbb;
+}
+
+.nav-pills li:last-child{
+  border-bottom: 0;
+}
+
+.nav-pills>li a{
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron h1{
+  font-size: 30px;
+}
+
+@media all and (min-width: 768px){
+  .nav-pills>li{
+    border-right: 1px solid #bbb;
+    border-bottom: 0;
+  }
+
+  .nav-pills li:last-child{
+    border-right: 0;
+  }
+}
+
+.tab-pane{
+  padding: 1em 2em;
+}*/
