@@ -37,17 +37,17 @@
       </article>
       <!-- End Jumbotron -->
       <!-- Start Tabs -->
-      <ul>
-        <li><a href="#history" role="tab" data-toggle="tab">History</a></li>
+      <ul class="nav nav-tabs" role="tablist" id="contentTabs">
+        <li class="active"><a href="#history" role="tab" data-toggle="tab">History</a></li>
         <li><a href="#geography" role="tab" data-toggle="tab">Geography</a></li>
         <li><a href="#demographics" role="tab" data-toggle="tab">Demographics</a></li>
         <li><a href="#sports" role="tab" data-toggle="tab">Sports</a></li>
       </ul>
       <!-- End Tabs -->
       <!-- Start Tab Panes -->
-      <div>
+      <div class="tab-content">
         <!-- Start History Pane -->
-        <div>
+        <div class="tab-pane active" id="history">
           <article>
             <h2>History</h2>
             <blockquote>
@@ -60,7 +60,7 @@
         </div>
         <!-- End History Pane -->
         <!-- Start Geography Pane -->
-        <div>
+        <div class="tab-pane" id="geography">
           <article>
             <h2>Geography</h2>
             <div class="row">
@@ -74,7 +74,7 @@
         </div>
         <!-- End Geography Pane -->
         <!-- Start Demographics Pane -->
-        <div>
+        <div class="tab-pane" id="demographics">
           <article>
             <h2>Demographics</h2>
             <p>In 2010 Boston was estimated to have 617,594 residents (a density of 12,200 persons/sq mile, or 4,700/km2) living in 272,481 housing units a 5% population increase over 2000. Some 1.2 million persons may be within Boston's boundaries during work hours, and as many as 2 million during special events. This fluctuation of people is caused by hundreds of thousands of suburban residents who travel to the city for work, education, health care, and special events.</p>
@@ -108,7 +108,7 @@
         </div>
         <!-- End Demographics Pane -->
         <!-- Start Sports Pane -->
-        <div>
+        <div class="tab-pane" id="sports">
           <article>
             <h2>Sports</h2>
             <div class="row">
